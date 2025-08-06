@@ -1,0 +1,19 @@
+{
+  "name": "lab-work",
+  "version": "1.0.0",
+  "description": "Lab work",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/pelton-wheel.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Purbayan Pramanik",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "devDependencies": {
+    "@types/node": "^24.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
