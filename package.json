@@ -4,7 +4,7 @@
   "description": "Lab work",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/pelton-wheel.ts",
+    "start": "ts-node src/francis-turbine.ts",
     "build": "tsc"
   },
   "keywords": [],
@@ -15,5 +15,9 @@
     "@types/node": "^24.2.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "zod": "^4.0.17"
   }
 }
