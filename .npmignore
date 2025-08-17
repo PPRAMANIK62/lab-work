@@ -1,0 +1,77 @@
+# Source files (only include built dist)
+src/
+tsconfig.json
+*.ts
+!*.d.ts
+
+# Development files
+.git/
+.gitignore
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Development and test files
+*.test.ts
+*.test.js
+*.spec.ts
+*.spec.js
+test/
+tests/
+__tests__/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Build artifacts (we want dist/ but not other build files)
+*.tsbuildinfo
+.build/
+build/
+
+# Documentation source (keep README.md)
+docs/
+
+# Local development files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Coverage and test reports
+coverage/
+.nyc_output/
+.coverage/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
