@@ -1,15 +1,52 @@
 {
-  "name": "lab-work",
+  "name": "@ppramanik62/lab-works",
   "version": "1.0.0",
-  "description": "Lab work",
-  "main": "index.js",
+  "description": "A comprehensive command-line toolkit for hydraulic turbine calculations, supporting Francis Turbine and Pelton Wheel computations with interactive mode and validation.",
+  "main": "dist/cli/main.js",
   "scripts": {
-    "start": "ts-node src/francis-turbine.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "ts-node src/cli/main.ts",
+    "prepublishOnly": "npm run build",
+    "postinstall": "echo 'Thanks for installing @ppramanik62/lab-works! Run: labworks --help to get started.'"
   },
-  "keywords": [],
-  "author": "Purbayan Pramanik",
+  "bin": {
+    "labworks": "./dist/cli/main.js"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "hydraulic",
+    "turbine",
+    "francis",
+    "pelton",
+    "calculator",
+    "engineering",
+    "cli",
+    "typescript",
+    "interactive"
+  ],
+  "author": {
+    "name": "Purbayan Pramanik",
+    "url": "https://github.com/PPRAMANIK62"
+  },
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PPRAMANIK62/lab-works.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PPRAMANIK62/lab-works/issues"
+  },
+  "homepage": "https://github.com/PPRAMANIK62/lab-works#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "packageManager": "pnpm@10.13.1",
   "devDependencies": {
     "@types/node": "^24.2.0",
@@ -17,7 +54,9 @@
     "typescript": "^5.9.2"
   },
   "dependencies": {
+    "@ppramanik62/lab-works": "^1.0.0",
     "commander": "^14.0.0",
+    "semver": "^7.7.2",
     "zod": "^4.0.17"
   }
 }
