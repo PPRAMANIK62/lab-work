@@ -10,7 +10,7 @@
     "postinstall": "echo 'Thanks for installing @ppramanik62/lab-works! Run: labworks --help to get started.'"
   },
   "bin": {
-    "labworks": "./dist/cli/main.js"
+    "labworks": "dist/cli/main.js"
   },
   "files": [
     "dist/**/*",
