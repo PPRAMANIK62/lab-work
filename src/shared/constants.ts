@@ -28,3 +28,16 @@ export const PELTON_CONSTANTS = {
   B: 0.454, // m
   vertical_height_pressure_gauge: 0.205, // m
 } as const;
+
+// Kaplan turbine specific constants
+export const KAPLAN_CONSTANTS = {
+  r_brake_wheel: 0.15247, // m
+  r_rope: 0.00732, // m
+  h0: 1, // m
+  hi: 0.25, // m
+  vertical_height_pressure_gauge: 0.25, // m
+  Cd: 0.97, // discharge coefficient
+  d1: 0.25, // m
+  d2: 0.125, // m
+  Sm: 13.6, // specific gravity for mercury (manometer)
+} as const;
