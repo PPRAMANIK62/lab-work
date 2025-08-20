@@ -145,7 +145,7 @@ if ! git remote get-url origin > /dev/null 2>&1; then
 else
     read -p "Push to GitHub? (y/N): " push_github
     if [ "$push_github" = "y" ] || [ "$push_github" = "Y" ]; then
-        git push origin main
+        git push origin master
         git push --tags
         print_status "Pushed to GitHub"
     fi
