@@ -1,6 +1,6 @@
 {
   "name": "@ppramanik62/lab-works",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A comprehensive command-line toolkit for hydraulic turbine calculations, supporting Francis Turbine and Pelton Wheel computations with interactive mode and validation.",
   "main": "dist/cli/main.js",
   "scripts": {
@@ -35,12 +35,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PPRAMANIK62/lab-works.git"
+    "url": "git+https://github.com/PPRAMANIK62/lab-work.git"
   },
   "bugs": {
-    "url": "https://github.com/PPRAMANIK62/lab-works/issues"
+    "url": "https://github.com/PPRAMANIK62/lab-work/issues"
   },
-  "homepage": "https://github.com/PPRAMANIK62/lab-works#readme",
+  "homepage": "https://github.com/PPRAMANIK62/lab-work#readme",
   "engines": {
     "node": ">=16.0.0"
   },
